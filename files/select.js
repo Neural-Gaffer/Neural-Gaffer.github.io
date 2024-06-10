@@ -6,7 +6,7 @@ var currentResultId = 0;
 var currentMethodList = ["ours", "ours_multi_light", "nerfactor", "invRender", "GT"];
 var currentMethod = "ours";
 
-var current_3D_SceneList = [ 'helmet', "chair","backpack", "iron", ];
+var current_3D_SceneList = [ 'helmet', 'chair', 'backpack', 'iron' ];
 var current_3D_Scene = "iron";
 var current_3D_SceneId = 0;
 function ChangeScene(idx){
